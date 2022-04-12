@@ -1,0 +1,19 @@
+.card {
+  width: 30%;
+  text-align: left;
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  padding: 14px;
+  cursor: pointer;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.card h5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card.active {
+  border: 1px solid #6F75E6;
+}
